@@ -1,5 +1,5 @@
 import React from "react";
-import { fireEvent, render, screen } from "../../utils/test-utils";
+import { fireEvent, render, screen } from "@testing-library/react";
 import Header from "../Header";
 
 const mockedUseNavigate = jest.fn();
@@ -12,7 +12,7 @@ describe("Header", () => {
   let props;
 
   beforeEach(() => {
-    props = { user: "test@gmail.com" };
+    props = { user: "chevy" };
   });
 
   it("should take a snapshot", () => {
