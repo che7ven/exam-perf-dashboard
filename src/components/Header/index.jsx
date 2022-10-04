@@ -12,7 +12,7 @@ import {
 import { getOrigin } from "../../utils/constants";
 import styles from "./styles";
 
-const Header = ({ classes, user = "C" }) => {
+const Header = ({ classes, user }) => {
   const navigate = useNavigate();
 
   const [userProfile, setUserProfile] = useState(null);

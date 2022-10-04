@@ -14,7 +14,7 @@ const Template = (args) => <Button {...args} />;
 
 export const LoginButton = Template.bind({});
 LoginButton.args = {
-  label: "Join Room",
+  label: "Login",
   primary: true,
   size: "medium",
 };
