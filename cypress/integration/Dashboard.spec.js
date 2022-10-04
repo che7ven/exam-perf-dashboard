@@ -1,5 +1,5 @@
 describe("Dashboard", () => {
-  it("should render login page correctly", () => {
+  it("should render login and dashboard page correctly", () => {
     cy.visit("/");
     cy.get("#textField-User\\ ID").should("exist");
     cy.get("#textField-User\\ ID").clear();
