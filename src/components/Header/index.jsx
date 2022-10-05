@@ -36,7 +36,7 @@ const Header = ({ classes, user }) => {
     <header>
       <nav className={classes.nav}>
         <Typography variant="h5" style={{ paddingLeft: 8 }}>
-          Exam Dashboard
+          Exam Dashboard v1
         </Typography>
         <div className={classes.optionHolder}>
           {user && (
